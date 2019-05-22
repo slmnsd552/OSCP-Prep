@@ -1,0 +1,74 @@
+1 hackfest series ->
+hackfest2016 : Quaoar
+hackfest2016 : Sedna
+hackfest2016 : Orcus
+2. Kioptrix Series
+3. SkyDog Series
+Skydog
+SkyDog 2016
+
+4. billu box : very interesting.
+5. sickos series both 1 and 2
+sickos1 -----------------------directories are not accessible directly, we have to go through proxy, looking into robots.txt found a directory cms, by going into that directory we go to admin panel and used default credintial to login , after that uploaded shell and got the root access by sudo su.
+6. Fristileak 	----- enemurating got the admin panel, login by decoding source code, uploaded shell, PE--- through notes gone to home directory there was a password file, encrypter was there in that folder, so created decrypter,
+						after that sudo using that credintial, gone to credintial directory and run a dcom command which gives a root access. 
+7. droopy ----- There was a vulnerable version of dropel which was affected by SQL, Running exploits reset the password, PS:------ kernal exploit was availabele gives the root
+8. Milnet  ------ viewing source code gives us RFI, Through rfi got the shell. PE---- through TAR command having * we got root
+9. Necromance 
+10. Troll 1  ----- there was webserver running but initially nothing was usefull. there is also FTP server running whih is allowing anonymus login, after login got a pcap file, viewing that pcap file gives a directory, going 
+					on to the directory gives a executable file ...using strings decoded that executable and got another directory which gives a list of user & password. using hydra we got the login through ssh. PE- overslays
+11. Acid Series
+Server
+Reloaded 
+both are awesome. Great for web pentesting
+12. Lord of the root.
+many ways even BOF way too there. So must do For OSCP Preparation but i highely encourage first do without BOF then learn BOF then again solve this machine after BOF
+13. Sokar and Pwnlab machines also superb --------------- port scanning all ports give access to webapp. viewing source code gives shellshock vulnerability which targets enviourimental variables to execute code, through this
+														we got the reverse shell. PE- sudo PS1="() { :;} ;  /bin/sh" /home/bynarr/lime Using this shellcode vulnerability got the root accesss.
+14. Darknet [ Another favorite machine. Medium one] Highely Recommended from my side
+15.DonkyDocker [to learn docker pentesting]. Highely Suggested for OSCP from my side. Why u will understand when you will do OSCP 
+16. Mr ROBOT -> Easy to Medium
+17. Minotaur - > Medium
+18. pipe machine 
+19. Zico machine. Great Machine - Easy to medium 	-----> 
+20. LazySysAdmin :Must for OSCP Preparation  -----> Enemurating the directories came accross php & wordpress admin pages. On port scanning there was smbshare on port 139 & 445, using smbshare connected and go wordress login,
+													through wordpress got the shell P.E--> just done su to gogie, togie was having sudo permission
+21. covfefe - Very Easy machine. [If you done all above 20 machine then you can do this machine in 15 minutes]
+22. Breach Series [Mine favorite machines too]
+Breach 1 and Breach 2 and Breach 3
+I did 1 and 2 Complete and 3 half
+=====================================
+Learn BOF and then do below machines
+1. BrainPane series 
+2. IMF
+3. Troll 2
+
+
+
+
+Beginner
+
+Kioptrix: Level 1 (#1)
+Kioptrix: Level 1.1 (#2)
+Kioptrix: Level 1.2 (#3)
+Kioptrix: Level 1.3 (#4)
+FristiLeaks: 1.3
+Stapler: 1
+PwnLab: init
+
+Intermediate
+ 
+Kioptrix: 2014
+Brainpan: 1
+Mr-Robot: 1
+HackLAB: Vulnix
+
+Go for it
+
+VulnOS: 2
+SickOs: 1.2
+/dev/random: scream
+pWnOS: 2.0
+SkyTower: 1
+IMF
+WinterMute
